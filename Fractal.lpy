@@ -1,0 +1,7 @@
+Axiom: F
+
+derivation length: 3
+production:
+F --> F[+F][-F]F
+
+endlsystem

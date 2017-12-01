@@ -9,8 +9,8 @@ from LPyObjectConverter import Lsystem
 
 
 ######################################
-# Working example - Lstring insertion
-# Needs at least a collection "lstrings" in the database to make it work
+# #Working example - Lstring insertion
+# #Needs at least a collection "lstrings" in the database to make it work
 #
 #
 # #Initialize the MongoClient
@@ -27,8 +27,8 @@ from LPyObjectConverter import Lsystem
 
 
 #############
-# Working example - Lsystem insertion
-# Needs at least a collection "lstrings" in the database to make it work
+# #Working example - Lsystem insertion
+# #Needs at least a collection "lstrings" in the database to make it work
 #
 # 
 # #Initialize the MongoClient
@@ -37,7 +37,7 @@ from LPyObjectConverter import Lsystem
 # db = client["{your database}"]
 #
 # #Stocking your Lsystem in a variable
-# lsys = Lsystem("../FractalExample.lpy") # or your existing Lsystem
+# lsys = Lsystem("FractalExample.lpy") # or your existing Lsystem
 # #Returning a JSON document of your Lsystem
 # d = LPyObjectConverter.ConvertLSystemToJSON(lsys)
 # #Inserting the document into a collection
@@ -47,7 +47,7 @@ from LPyObjectConverter import Lsystem
 
 
 #########################
-# SPIKE TEST - TO BE DONE
+# #SPIKE TEST - TO BE DONE
 #
 # import LStringDBCollector
 # doc = PyMongo.FindDocumentsInCollectionByName(db, "lstrings")[3]
